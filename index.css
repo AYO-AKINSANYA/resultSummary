@@ -221,20 +221,22 @@ main {
 
     .white h5 {
         font-size: 15px;
+        padding-left: 20px;
     }
 
     .rectangle {
+        padding: 20px;
         flex-direction: column;
-        gap: 7px;
+        /* gap: 7px; */
     }
 
-    .rectangle1,
+    /* .rectangle1,
     .rectangle2,
     .rectangle3,
     .rectangle4 {
         padding: 5px;
         gap: 5px;
-    }
+    } */
 
     .rectangle1 .part p,
     .rectangle2 .part p,
@@ -245,30 +247,31 @@ main {
 
     button {
         /* width: 100%; */
+        margin: 0 20px;
         padding: 15px 10px;
     }
 
-    .circle {
+    /* .circle {
         width: 50px;
         height: 50px;
         padding: 20px;
-    }
+    } */
 
-    .circle span {
+    /* .circle span {
         font-size: 30px;
-    }
+    } */
 
-    .num {
+    /* .num {
         font-size: 14px;
-    }
+    } */
 
-    .purple h4 {
+    /* .purple h4 {
         font-size: 24px;
-    }
+    } */
 
-    .purple h5,
+    /* .purple h5,
     .purple p {
-        font-size: 14px;
-    }
+        font-size: px;
+    } */
 
 }
