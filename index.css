@@ -174,9 +174,101 @@ main {
     border-radius: 20px;
     display: flex;
     flex-direction: row;
-    width: 550px;
-    box-shadow: 20px 12px 29px 2px rgba(217, 225, 231, 1);
+    /* width: 550px; */
+    box-shadow: 20px 12px 29px 2px #d9e1e7;
     -webkit-box-shadow: 20px 12px 29px 2px rgba(217, 225, 231, 1);
     -moz-box-shadow: 20px 12px 29px 2px rgba(217, 225, 231, 1);
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    body {
+        /* height: 0; */
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        font-size: 14px;
+    }
+
+    main {
+        /* width: 0; */
+        width: 100%;
+        height: 0;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .purple {
+        width: 100%;
+        padding: 40px 0;
+        /* height: auto; */
+        border-radius: 0 0 20px 20px;
+        gap: 20px;
+        /* display: flex;
+        flex-direction: column;
+        justify-items: space-between; */
+    }
+
+    .white {
+        width: 100%;
+        padding: 0;
+        /* height: auto; */
+        border-radius: 0;
+        gap: 20px;
+    }
+
+    .white h5 {
+        font-size: 15px;
+    }
+
+    .rectangle {
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .rectangle1,
+    .rectangle2,
+    .rectangle3,
+    .rectangle4 {
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .rectangle1 .part p,
+    .rectangle2 .part p,
+    .rectangle3 .part p,
+    .rectangle4 .part p {
+        font-size: 14px;
+    }
+
+    button {
+        /* width: 100%; */
+        padding: 15px 10px;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+        padding: 20px;
+    }
+
+    .circle span {
+        font-size: 30px;
+    }
+
+    .num {
+        font-size: 14px;
+    }
+
+    .purple h4 {
+        font-size: 24px;
+    }
+
+    .purple h5,
+    .purple p {
+        font-size: 14px;
+    }
 
 }
